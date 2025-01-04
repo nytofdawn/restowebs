@@ -1,6 +1,7 @@
+// Import Assets
 import logo_removebg from './logo_removebg.png';
-import facebook_icon from './facebook_icon.png'
-import apk_icon from './apk_icon.png'
+import facebook_icon from './facebook_icon.png';
+import apk_icon from './apk_icon.png';
 
 import drinks_category from './drinks_category.png';
 import dessert_category from './dessert_category.png';
@@ -8,7 +9,6 @@ import fried_dish_category from './fried_dish_category.jpg';
 import pancit_category from './pancit_category.jpg';
 import sizzling_category from './sizzling_category.png';
 import soup_category from './soup_category.png';
-
 
 import sizzling_pusit from './sizzling_pusit.jpg';
 import sizzling_sisig from './sizzling_sisig.jpg';
@@ -24,9 +24,6 @@ import chickenfillet from './chickenfillet.jpg';
 import calamares from './calamares.jpg';
 import camaron from './camaron.jpg';
 
-
-
-
 import wa_ter from './wa_ter.png';
 import coffee from './coffee.png';
 import Coke from './Coke.png';
@@ -35,28 +32,18 @@ import Softdrinks_small from './Softdrinks_small.jpg';
 import french_fries from './french_fries.jpg';
 import letcheflan from './letcheflan.jpg';
 
-
 import pancitcanton from './pancitcanton.jpg';
 import bihon from './bihon.jpg';
-
 
 import chickenmami from './chickenmami.jpg';
 import beefmami from './beefmami.jpg';
 import lomi from './lomi.jpg';
 
-
-
-
-
-
-
-
-
+// Asset Collection
 export const assets = {
     logo_removebg,
     facebook_icon,
     apk_icon,
-
     drinks_category,
     dessert_category,
     fried_dish_category,
@@ -65,204 +52,183 @@ export const assets = {
     soup_category,
 };
 
+// Menu Categories
 export const menu_list = [
-    {
-        menu_name: "Sizzling",
-        menu_image: sizzling_category
-    },
-    {
-        menu_name: "Drinks",
-        menu_image: drinks_category
-    },
-    {
-        menu_name: "Dessert",
-        menu_image: dessert_category
-    },
-    {
-        menu_name: "Fried Dish",
-        menu_image: fried_dish_category
-    },
-    {
-        menu_name: "Pancit",
-        menu_image: pancit_category
-    },
-    {
-        menu_name: "Soup",
-        menu_image: soup_category
-    },
-
-    
+    { menu_name: "Sizzling", menu_image: sizzling_category },
+    { menu_name: "Drinks", menu_image: drinks_category },
+    { menu_name: "Dessert", menu_image: dessert_category },
+    { menu_name: "Fried Dish", menu_image: fried_dish_category },
+    { menu_name: "Pancit", menu_image: pancit_category },
+    { menu_name: "Soup", menu_image: soup_category },
 ];
 
-export const food_list = [ 
+// Food Items
+export const food_list = [
+    // Sizzling
     {
         id: "1",
         name: "Sizzling Pusit",
         image: sizzling_pusit,
-        description: "Sisig Pusit is juicy and tender and bursting with spicy and smoky flavors. It's delicious as an appetizer or as a main dish with steamed rice!",
-        category: "Sizzling"
+        description: "Juicy and tender squid bursting with spicy and smoky flavors.",
+        category: "Sizzling",
     },
     {
-        id: "1",
+        id: "2",
         name: "Sizzling Gambas",
         image: sizzling_gambas,
-        description: " sizzling seafood dish made with fresh peeled and deveined shrimps, in a sauce made with garlic, paprika, chili flakes, butter, salt, pepper and oil.!",
-        category: "Sizzling"
+        description: "A sizzling seafood dish made with shrimp, garlic, and paprika.",
+        category: "Sizzling",
     },
     {
-        id: "1",
-        name: "Sizzling beef stew",
+        id: "3",
+        name: "Sizzling Beef Stew",
         image: sizzling_beef_stew,
-        description: "Beef Kaldereta (Sizzling Beef Stew). Beef stew with vegetables simmered in garlic, tomato sauce, cheese and spices!",
-        category: "Sizzling"
+        description: "Beef stew with vegetables in a savory tomato and cheese sauce.",
+        category: "Sizzling",
     },
     {
-        id: "1",
-        name: "Sizzling sisig",
+        id: "4",
+        name: "Sizzling Sisig",
         image: sizzling_sisig,
-        description: "Sizzling Sisig makes a great party appetizer as well as a hearty dinner entree. A delicious combination of juicy pork and tangy, savory, and spicy flavors, it's seriously addictive!",
-        category: "Sizzling"
+        description: "A delicious combination of juicy pork with tangy and spicy flavors.",
+        category: "Sizzling",
     },
+    // Fried Dish
     {
-        id: "1",
-        name: "Spicy chicken",
+        id: "5",
+        name: "Spicy Chicken",
         image: spicy_chicken,
-        description: "A sticky chicken recipe featuring a blend of sweet, spicy, and savory flavors thanks to the addition of honey, ginger, soy, and hot sauce.",
-        category: "Fried Dish"
+        description: "Sticky chicken with a blend of sweet, spicy, and savory flavors.",
+        category: "Fried Dish",
     },
     {
-        id: "1",
-        name: "Lumpaing shanghai",
+        id: "6",
+        name: "Lumpiang Shanghai",
         image: lumpiang_shanghai,
-        description: "A basic type of lumpia, lumpia Shanghai is usually smaller and thinner than other varieties. It's traditionally made with ground pork, onions, garlic, and vegetables",
-        category: "Fried Dish"
+        description: "Spring rolls with ground pork, onions, and vegetables.",
+        category: "Fried Dish",
     },
     {
-        id: "1",
-        name: "Letchon kawali",
+        id: "7",
+        name: "Lechon Kawali",
         image: letchon_kawali,
-        description: "Crispy deep-fried pork is the simplest way to describe lechon kawali. Pork belly or liempo is the cut of pork usually used to cook it",
-        category: "Fried Dish"
+        description: "Crispy deep-fried pork belly with a smoky flavor.",
+        category: "Fried Dish",
     },
     {
-        id: "1",
-        name: "Letchon kawali chicken",
+        id: "8",
+        name: "Lechon Kawali Chicken",
         image: letchon_kawali_chicken,
-        description: "Lechon manok sa kawali or pan roasted whole chicken is Smokey and roasty and is prepared by slowly cooking the whole chicken with soy sauce , oyster sauce, lemon juice, sugar, pepper, bay leaves, ginger, garlic, onion, lemon garlic and spring onion.",
-        category: "Fried Dish"
+        description: "Pan-roasted chicken with a flavorful soy sauce marinade.",
+        category: "Fried Dish",
     },
     {
-        id: "1",
-        name: "Buttered chicken",
+        id: "9",
+        name: "Buttered Chicken",
         image: butterchicken,
-        description: "Butter chicken, traditionally known as murgh makhani (pronounced [mʊrɣ ˈməkʰaːni]), is an Indian dish originating in Delhi. It is a type of curry made from chicken with a spiced tomato and butter (makhan) sauce. Its sauce is known for its rich texture. It is similar to chicken tikka masala, which uses a tomato paste.",
-        category: "Fried Dish"
+        description: "Indian dish with chicken in a spiced tomato and butter sauce.",
+        category: "Fried Dish",
     },
     {
-        id: "1",
-        name: "Chicken fillet",
+        id: "10",
+        name: "Chicken Fillet",
         image: chickenfillet,
-        description: "A chicken fillet is a boneless, flat cut of meat from the breast of a chicken. Chicken fillets are versatile and can be used in many dishes, such as stir-fries, chicken salads, or roasted with vegetables.",
-        category: "Fried Dish"
+        description: "Boneless, flat-cut chicken meat, versatile in many dishes.",
+        category: "Fried Dish",
     },
     {
-        id: "1",
+        id: "11",
         name: "Calamares",
         image: calamares,
-        description: "Calamari is a dish of fried squid that is chewy and has a unique taste",
-        category: "Fried Dish"
+        description: "Chewy fried squid with a unique and crispy taste.",
+        category: "Fried Dish",
     },
     {
-        id: "1",
+        id: "12",
         name: "Camaron",
         image: camaron,
-        description: "Camaron rebosado is a deep-fried battered shrimp dish in Philippine cuisine. It is usually served with a sweet and sour sauce.",
-        category: "Fried Dish"
+        description: "Deep-fried battered shrimp served with sweet and sour sauce.",
+        category: "Fried Dish",
     },
-    
-
+    // Drinks
     {
-        id: "1",
+        id: "13",
         name: "Water",
         image: wa_ter,
-        description: "double-walled exterior with a vacuum seal between the walls. This means your drink will stay at its ideal temperature for hours.",
-        category: "Drinks"
+        description: "Pure water with vacuum-sealed double-walled insulation.",
+        category: "Drinks",
     },
     {
-        id: "1",
+        id: "14",
         name: "Coffee",
         image: coffee,
-        description: "Coffee is a popular beverage made from roasted coffee beans that is bitter, slightly acidic, and has a dark color.",
-        category: "Drinks"
+        description: "Rich, aromatic beverage brewed from roasted coffee beans.",
+        category: "Drinks",
     },
     {
-        id: "1",
+        id: "15",
         name: "Coke",
         image: Coke,
-        description: "Soft drinks in 1.5 liter bottles are non-alcoholic beverages that are carbonated and typically contain sweeteners. They may also contain flavorings, coloring agents, and preservatives.",
-        category: "Drinks"
+        description: "Classic carbonated soft drink with a sweet flavor.",
+        category: "Drinks",
     },
     {
-        id: "1",
-        name: "Softdrinks small",
+        id: "16",
+        name: "Softdrinks (Small)",
         image: Softdrinks_small,
-        description: "A soft drink is any water-based flavored drink, usually but not necessarily carbonated, and typically including added sweetener.",
-        category: "Drinks"
+        description: "Carbonated beverage, sweet and refreshing.",
+        category: "Drinks",
     },
-
+    // Dessert
     {
-        id: "1",
-        name: "French fries",
+        id: "17",
+        name: "French Fries",
         image: french_fries,
-        description: "French fries are a popular snack or side dish of potato strips that are deep-fried until crispy and golden brown.",
-        category: "Dessert"
+        description: "Golden crispy potato strips, perfect as a side or snack.",
+        category: "Dessert",
     },
     {
-        id: "1",
-        name: "Letche flan",
+        id: "18",
+        name: "Leche Flan",
         image: letcheflan,
-        description: "Leche Flan is a dessert made-up of eggs and milk with a soft caramel on top. It resembles crème caramel and caramel custard. This delicious dessert is known throughout the world.It has been a regular item in the menu of most restaurants because of its taste, ease in preparation and long shelf life.",
-        category: "Dessert"
+        description: "Rich custard dessert topped with soft caramel.",
+        category: "Dessert",
     },
-
-
+    // Pancit
     {
-        id: "1",
-        name: "Pancit canton",
+        id: "19",
+        name: "Pancit Canton",
         image: pancitcanton,
-        description: "As one of the most popular noodle dishes in the Philippines, pancit canton is a house party regular. Thick and steamy noodles in a savory sauce mixed with a variety of sweet carrots, fresh string beans and cabbage, and fatty pork belly–all the makings of a delicious pancit canton dish.",
-        category: "Pancit"
+        description: "Thick noodles with vegetables and savory sauce.",
+        category: "Pancit",
     },
     {
-        id: "1",
-        name: "Pancit bihon",
+        id: "20",
+        name: "Pancit Bihon",
         image: bihon,
-        description: "Pancit Bihon is a special Filipino dish packed with chewy rice noodles and tons of vegetables and proteins. Served mainly in celebrations.",
-        category: "Pancit"
+        description: "Rice noodles with vegetables and proteins, perfect for celebrations.",
+        category: "Pancit",
     },
+    // Soup
     {
-        id: "1",
-        name: "Chicken mami",
+        id: "21",
+        name: "Chicken Mami",
         image: chickenmami,
-        description: "Chicken Mami is the Filipino version of Chicken Noodle Soup. It is delicious and perfect to have during the cold weather.",
-        category: "Soup"
+        description: "Filipino-style chicken noodle soup, warm and hearty.",
+        category: "Soup",
     },
     {
-        id: "1",
-        name: "Beef mami",
+        id: "22",
+        name: "Beef Mami",
         image: beefmami,
-        description: "Beef mami is a hearty Filipino-Chinese noodle soup made with beef, egg noodles, and broth. It's often served with boiled eggs and other toppings.",
-        category: "Soup"
+        description: "Rich beef noodle soup with eggs and toppings.",
+        category: "Soup",
     },
     {
-        id: "1",
+        id: "23",
         name: "Lomi",
         image: lomi,
-        description: "Lomi is a popular Filipino dish of thick egg noodles in a rich soup with various proteins and vegetables.",
-        category: "Soup"
+        description: "Thick egg noodles in a hearty broth with vegetables.",
+        category: "Soup",
     },
-
-
-
-
 ];
